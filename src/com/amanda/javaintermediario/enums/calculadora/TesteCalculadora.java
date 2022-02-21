@@ -7,7 +7,7 @@ public class TesteCalculadora {
         double x = 5;
         double y = 2;
         for(Calculadora calculadora : Calculadora.values()){
-            System.out.println(x + calculadora.toString() + y + " = " +                    
+            System.out.println(x + calculadora.toString() + y + " = " +
                     calculadora.executarOperacao(x,y));
         }
     }
