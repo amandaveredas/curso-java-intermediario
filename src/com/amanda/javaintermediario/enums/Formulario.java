@@ -1,4 +1,4 @@
-package com.amanda.javaintermediario;
+package com.amanda.javaintermediario.enums;
 
 public class Formulario {
 
