@@ -10,3 +10,7 @@
 
 * start(), run(), sleep()
 ** os três mais importantes
+
+* Qual abordagem é melhor?
+** Com a Runnable, poderemos exender qualquer outra classe que seja necessária.
+** Se não for sobrepor nenhum método além de run, usar a interface Runnable.
