@@ -1,0 +1,17 @@
+***** GARBAGE COLECTOR *****
+
+- Memória Heap: onde ficam armazenados os objetos do Java
+- A referência aponta pra essa memória
+
+E quando os objetos para de ser referenciados pelo programa?
+- Viram lixo, ocupando memória desnecessária. Ex: variáveis locais após finalização do método.
+
+Aí vem o Garbage Colector:
+- Marca as referências que não estão sendo usadas
+- Remove esses objetos
+- Otimiza a memória, para que não sobrem lacunas de memórias vazias entre objetos (o armazenamento no Java é sequencial)
+- É gerenciado pela JVM
+
+Ferramentas (profiling)
+- Visual JVM
+    - visualvm

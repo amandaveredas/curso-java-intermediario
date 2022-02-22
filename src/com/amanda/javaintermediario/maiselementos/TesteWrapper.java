@@ -1,4 +1,4 @@
-package com.amanda.javaintermediario.wrappers;
+package com.amanda.javaintermediario.maiselementos;
 
 public class TesteWrapper {
 
@@ -16,6 +16,8 @@ public class TesteWrapper {
 
         //wrappers
         Short num7 = new Short((short) 1); //deprecated
+
+        //autoboxing:
         Byte num8 = 10;
         Integer num9 = 100;
         Long num10 = 1000L;
@@ -31,6 +33,14 @@ public class TesteWrapper {
 
         //cnvertendo entre as wrappers:
         Long num16 = num9.longValue();
+
+        //autounboxing
+        int num17 = num9; //num9.intValue();
+
+        //o Java faz esses boxings e unboxings de maneira transparente em expressões
+
+        //quando é boa prática usar primitvos?
+        //Quando for manipulá-los matematicamente de forma frequente
 
 
 
