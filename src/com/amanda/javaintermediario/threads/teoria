@@ -1,0 +1,12 @@
+### Multitarefas: processos e threads
+
+* Processo é um programa que está sendo executado.
+* Thread é a menor unidade de código que pode ser executada.
+**Ou seja, permite ao programa executar 2 ou + tarefas ao mesmo tempo.
+
+* Duas formas:
+** Extender a classe Thread
+** Implementar a interface Runnable
+
+* start(), run(), sleep()
+** os três mais importantes

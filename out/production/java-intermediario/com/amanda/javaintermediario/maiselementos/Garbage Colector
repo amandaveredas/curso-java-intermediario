@@ -11,3 +11,7 @@ Aí vem o Garbage Colector:
 - Remove esses objetos
 - Otimiza a memória, para que não sobrem lacunas de memórias vazias entre objetos (o armazenamento no Java é sequencial)
 - É gerenciado pela JVM
+
+Ferramentas (profiling)
+- Visual JVM
+    - visualvm
